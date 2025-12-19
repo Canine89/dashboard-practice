@@ -3,6 +3,9 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { AlertCircle } from 'lucide-react';
 
+// 동적 렌더링 강제
+export const dynamic = 'force-dynamic';
+
 export default function AuthErrorPage() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background p-4">
